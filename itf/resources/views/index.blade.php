@@ -96,9 +96,8 @@
 					<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="{{asset('img/pic/pawn_chess_board-wallpaper-2560x1440.jpg')}}" style="width:100%; height:100%;">
 					<div class="container">
 						<div class="carousel-caption">
-							<h1>About Us</h1>
-							<h3>Board games คือเว็บไซต์ที่ได้รวบรวมบอร์ดเกมส์ต่าง ๆ มากมาย ซึ่งประกอบไปด้วยรูปภาพและเนื้อหาตลอดจนเกมส์ที่แนะนำ เพื่องให้ง่ายต่อการสืบค้นหรือศึกษาสำหรับผู้ที่สนใจในบอร์ดเกมส์</h3>
-							<p><a class="btn btn-warning btn-lg" href="/about" role="button">Read More</a></p>
+							<h1>Team Developer</h1>
+							<p><a class="btn btn-warning btn-lg" href="/about" role="button">About Us</a></p>
 						</div>
 					</div>
 				</div>

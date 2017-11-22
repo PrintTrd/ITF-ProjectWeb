@@ -78,7 +78,7 @@
 		</div>
 		<div class="col-xs-12 col-md-6">
 			<h4>Ticket to Ride </h4>
-			<img data-src="{{asset( 'holder.js/500x200' )}}" class="img" alt="500x200" style="width: 500px; height: 500px;" src="https://www.morethanagamecafe.com/wp-content/uploads/2015/01/xTicketToRide_1-510x510.jpg.pagespeed.ic.-ldmBEhW56.jpg" data-holder-rendered="true" id="img">
+			<img data-src="{{asset( 'holder.js/500x200' )}}" class="img" alt="500x200" style="width: 500px; height: 500px;" src="https://www.morethanagamecafe.com/wp-content/uploads/2015/01/xTicketToRide_1-510x510.jpg.pagespeed.ic.-ldmBEhW56.jpg" data-holder-rendered="true" id="img" href="">
 			<p>Build a railroad empire! Justifiably many people’s favorite game.</p>
 		</div>
 		<div class="col-xs-12 col-md-6">

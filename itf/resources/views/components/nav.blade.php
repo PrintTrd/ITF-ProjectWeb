@@ -17,11 +17,11 @@
 					<li class="dropdown">
 						<a href="/suggest" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Suggested Games<b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li {{ Request::is('/suggest') ? ' class="active"' : null }}><a href="/suggest#Games_for_Beginner">Games for Newcomers</a></li>
-							<li {{ Request::is('/suggest') ? ' class="active"' : null }}><a href="/suggest#Games_for_5-8_year-olds">Games for 5-8 year-olds</a></li>
-							<li {{ Request::is('/suggest') ? ' class="active"' : null }}><a href="/suggest#Cooperative_Games">Cooperative Games</a></li>
-							<li {{ Request::is('/suggest') ? ' class="active"' : null }}><a href="/suggest#Games_for_Experienced_Players">Games for Experienced Players</a></li>
-							<li {{ Request::is('/suggest') ? ' class="active"' : null }}><a href="/suggest#Party_Games">Party Games</a></li>
+							<li {{ Request::is('/suggest#Games_for_Beginner') ? ' class="active"' : null }}><a href="/suggest#Games_for_Beginner">Games for Newcomers</a></li>
+							<li {{ Request::is('/suggest#Games_for_5-8_year-olds') ? ' class="active"' : null }}><a href="/suggest#Games_for_5-8_year-olds">Games for 5-8 year-olds</a></li>
+							<li {{ Request::is('/suggest#Cooperative_Games') ? ' class="active"' : null }}><a href="/suggest#Cooperative_Games">Cooperative Games</a></li>
+							<li {{ Request::is('/suggest#Games_for_Experienced_Players') ? ' class="active"' : null }}><a href="/suggest#Games_for_Experienced_Players">Games for Experienced Players</a></li>
+							<li {{ Request::is('/suggest#Party_Games') ? ' class="active"' : null }}><a href="/suggest#Party_Games">Party Games</a></li>
 						</ul>
 					</li>
 					<li {{ Request::is('/about') ? ' class="active"' : null }}><a href="/about">About Us</a></li>
