@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+    	<title>Why You Should Be Playing Board Games</title>
+    	<!-- Required meta tags -->
+    	<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    	<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	</head>
+	<style>
+			.search-form .form-group {
+		float: right !important;
+		transition: all 0.35s, border-radius 0s;
+		width: 32px;
+		height: 32px;
+		background-color: #fff;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+		border-radius: 25px;
+		border: 1px solid #ccc;
+		}
+		.search-form .form-group input.form-control {
+		padding-right: 20px;
+		border: 0 none;
+		background: transparent;
+		box-shadow: none;
+		display:block;
+		}
+		.search-form .form-group input.form-control::-webkit-input-placeholder {
+		display: none;
+		}
+		.search-form .form-group input.form-control:-moz-placeholder {
+		/* Firefox 18- */
+		display: none;
+		}
+		.search-form .form-group input.form-control::-moz-placeholder {
+		/* Firefox 19+ */
+		display: none;
+		}
+		.search-form .form-group input.form-control:-ms-input-placeholder {
+		display: none;
+		}
+		.search-form .form-group:hover,
+		.search-form .form-group.hover {
+		width: 100%;
+		border-radius: 25px 25px 25px 25px;
+		}
+		.search-form .form-group span.form-control-feedback {
+		position: absolute;
+		top: -1px;
+		right: -2px;
+		z-index: 2;
+		display: block;
+		width: 34px;
+		height: 34px;
+		line-height: 34px;
+		text-align: center;
+		color: #424344;
+		left: initial;
+		font-size: 14px;
+	}
+  </style>
+    <body style="background-color:gray;">
+        <nav class="navbar navbar-inverse" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Board Games</a>								
+			</div>
+		
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="Play for Performance.html">Play for Performance</a></li>
+					<li class="dropdown">
+						<a href="Suggested Games.html" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Suggested Games<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="Suggested Games.html">Games for Newcomers</a></li>
+							<li><a href="#">Games for 5-8 year-olds</a></li>
+							<li><a href="#">Cooperative Games</a></li>
+							<li><a href="#">Games for Experienced Players</a></li>
+							<li><a href="#">Party Games</a></li>
+						</ul>
+					</li>
+					<li><a href="About.html">About Us</a></li>
+				</ul>
+				<form action="" class="search-form navbar-right" style="position: relative; top: 8px; right: 10px;">
+						<div class="form-group has-feedback" style="">
+							<label for="search" class="sr-only">Search</label>
+							<input type="text" class="form-control" name="search" id="search" placeholder="search">
+								<span class="glyphicon glyphicon-search form-control-feedback"></span>
+						</div>
+					</form>
+			</div>
+        </nav>
+
+        <div class="container-xs-12 container-md-6" align="center">
+            <video width="900" height="500" controls>
+                <source src="7 Reasons Why You Need To Play Modern Family Board Games - Top Benefits of Board Gaming.mp4" type="video/mp4">
+            </video>
+        </div>
+        
+        <div class="container-xs-12 container-md-6 text-center">
+            <img src="pic/PLAY-FOR-PERFORMANCE-WEB.jpg">
+            <img src="pic/PLAY-FOR-PERFORMANCE-WEB2.jpg">
+            <img src="pic/PLAY-FOR-PERFORMANCE-WEB3.jpg">
+            <img src="pic/PLAY-FOR-PERFORMANCE-WEB4.jpg">
+            <img src="pic/PLAY-FOR-PERFORMANCE-WEB5.jpg">
+            <img src="pic/PLAY-FOR-PERFORMANCE-WEB6.jpg">
+        </div>
+        
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<p id = "footer" align="center">&copy; งานท่วมหัว ทำตัวเหมือนว่าง</p>		
+	</body>
+</html>

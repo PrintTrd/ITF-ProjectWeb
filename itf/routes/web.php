@@ -11,6 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', 'IndexController@index');
+Route::get('/play', function () {
+    return view('play');
 });
+Route::get('/suggest', function () {
+    return view('suggest');
+});
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::post('/game', 'DataController@show');
