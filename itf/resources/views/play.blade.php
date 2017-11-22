@@ -59,61 +59,18 @@
 		color: #424344;
 		left: initial;
 		font-size: 14px;
-	}
-  </style>
+	    }
+  	</style>
     <body style="background-color:gray;">
-        <nav class="navbar navbar-inverse" role="navigation">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html">Board Games</a>								
-			</div>
 		
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse navbar-ex1-collapse">
-				<ul class="nav navbar-nav">
-					<li><a href="index.html">Home</a></li>
-					<li class="active"><a href="Play for Performance.html">Play for Performance</a></li>
-					<li class="dropdown">
-						<a href="Suggested Games.html" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Suggested Games<b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="Suggested Games.html">Games for Newcomers</a></li>
-							<li><a href="#">Games for 5-8 year-olds</a></li>
-							<li><a href="#">Cooperative Games</a></li>
-							<li><a href="#">Games for Experienced Players</a></li>
-							<li><a href="#">Party Games</a></li>
-						</ul>
-					</li>
-					<li><a href="About.html">About Us</a></li>
-				</ul>
-				<form action="" class="search-form navbar-right" style="position: relative; top: 8px; right: 10px;">
-						<div class="form-group has-feedback" style="">
-							<label for="search" class="sr-only">Search</label>
-							<input type="text" class="form-control" name="search" id="search" placeholder="search">
-								<span class="glyphicon glyphicon-search form-control-feedback"></span>
-						</div>
-					</form>
-			</div>
-        </nav>
-
-        <div class="container-xs-12 container-md-6" align="center">
-            <video width="900" height="500" controls>
-                <source src="7 Reasons Why You Need To Play Modern Family Board Games - Top Benefits of Board Gaming.mp4" type="video/mp4">
-            </video>
-        </div>
-        
+		@include('components.nav')
         <div class="container-xs-12 container-md-6 text-center">
-            <img src="pic/PLAY-FOR-PERFORMANCE-WEB.jpg">
-            <img src="pic/PLAY-FOR-PERFORMANCE-WEB2.jpg">
-            <img src="pic/PLAY-FOR-PERFORMANCE-WEB3.jpg">
-            <img src="pic/PLAY-FOR-PERFORMANCE-WEB4.jpg">
-            <img src="pic/PLAY-FOR-PERFORMANCE-WEB5.jpg">
-            <img src="pic/PLAY-FOR-PERFORMANCE-WEB6.jpg">
+            <img src="{{asset( 'img/pic/PLAY-FOR-PERFORMANCE-WEB.jpg' )}}">
+            <img src="{{asset( 'img/pic/PLAY-FOR-PERFORMANCE-WEB2.jpg' )}}">
+            <img src="{{asset( 'img/pic/PLAY-FOR-PERFORMANCE-WEB3.jpg' )}}">
+            <img src="{{asset( 'img/pic/PLAY-FOR-PERFORMANCE-WEB4.jpg' )}}">
+            <img src="{{asset( 'img/pic/PLAY-FOR-PERFORMANCE-WEB5.jpg' )}}">
+            <img src="{{asset( 'img/pic/PLAY-FOR-PERFORMANCE-WEB6.jpg' )}}">
         </div>
         
         <!-- jQuery -->

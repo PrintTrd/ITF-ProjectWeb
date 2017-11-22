@@ -12,7 +12,7 @@
 	<!--<link rel="stylesheet" type="text/css" href="main.css">ถ้าเกิดจะทำcssอ่ะนะ-->
  </head>
 	<style>
-			.search-form .form-group {
+		.search-form .form-group {
 		float: right !important;
 		transition: all 0.35s, border-radius 0s;
 		width: 32px;
@@ -64,7 +64,7 @@
 		}
   	</style>
   <body>
-  @include('components.nav')
+  	@include('components.nav')
 
 		<!-- jQuery -->
 	<script src="https://code.jquery.com/jquery.js"></script>

@@ -12,14 +12,8 @@
 */
 
 Route::get('/', 'IndexController@index');
-Route::get('/play', function () {
-    return view('play');
-});
-Route::get('/suggest', function () {
-    return view('suggest');
-});
-Route::get('/about', function () {
-    return view('about');
-});
+Route::get('/play', 'IndexController@play');
+Route::get('/suggest', 'IndexController@suggest');
+Route::get('/about', 'IndexController@about');
 
 Route::post('/game', 'DataController@show');

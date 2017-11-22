@@ -7,64 +7,70 @@
 
         <title>Game Search</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
+		<!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
+    <style>
+	.search-form .form-group {
+	float: right !important;
+	transition: all 0.35s, border-radius 0s;
+	width: 32px;
+	height: 32px;
+	background-color: #fff;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	border-radius: 25px;
+	border: 1px solid #ccc;
+	}
+	.search-form .form-group input.form-control {
+	padding-right: 20px;
+	border: 0 none;
+	background: transparent;
+	box-shadow: none;
+	display:block;
+	}
+	.search-form .form-group input.form-control::-webkit-input-placeholder {
+	display: none;
+	}
+	.search-form .form-group input.form-control:-moz-placeholder {
+	/* Firefox 18- */
+	display: none;
+	}
+	.search-form .form-group input.form-control::-moz-placeholder {
+	/* Firefox 19+ */
+	display: none;
+	}
+	.search-form .form-group input.form-control:-ms-input-placeholder {
+	display: none;
+	}
+	.search-form .form-group:hover,
+	.search-form .form-group.hover {
+	width: 100%;
+	border-radius: 25px 25px 25px 25px;
+	}
+	.search-form .form-group span.form-control-feedback {
+	position: absolute;
+	top: -1px;
+	right: -2px;
+	z-index: 2;
+	display: block;
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	color: #424344;
+	left: initial;
+	font-size: 14px;
+	}
+	body{text-align: center}
 
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
+    </style>
     </head>
     <body>
+
+        @include('components.nav')
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -76,17 +82,19 @@
                     @endauth
                 </div>
             @endif
-
+            
+        <div class="container">
             <div class="content">
                 <div class="title m-b-md">
-                    <img src="{{ $data->img }}" alt="">
+                    <img src="{{ $data->img }}" alt="" style="height:400px;width:400px">
                 </div>
-
                 <div class="links">
                     <h3>{{ $data->title }}</h3>
                     <p>{{ $data->description }}</p>
                 </div>
             </div>
+        </div>
+
         </div>
     </body>
 </html>

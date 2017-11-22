@@ -12,7 +12,7 @@
 		<!--<link rel="stylesheet" type="text/css" href="main.css">ถ้าเกิดจะทำcssอ่ะนะ-->
   </head>
   <style>
-		.search-form .form-group {
+	.search-form .form-group {
 	float: right !important;
 	transition: all 0.35s, border-radius 0s;
 	width: 32px;
@@ -79,7 +79,7 @@
 						<div class="carousel-caption">
 							<h1>Play for Performance</h1>
 							<h3>7 Reasons Why You Should Be Playing Board Games</h3>
-							<p><a class="btn btn-warning btn-lg" href="Play for Performance.html" role="button">Read More</a></p>
+							<p><a class="btn btn-warning btn-lg" href="/play" role="button">Read More</a></p>
 						</div>
 					</div>
 				</div>
