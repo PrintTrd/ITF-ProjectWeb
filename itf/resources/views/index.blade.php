@@ -61,6 +61,15 @@
 		left: initial;
 		font-size: 14px;
 		}
+		.header{
+			position: relative;
+			display: table;
+			width: 100%;
+			height: 100%
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		}
   	</style>
   <body>
 	
@@ -71,9 +80,10 @@
 				<li data-target="#carousel-id" data-slide-to="1" class="active"></li>
 				<li data-target="#carousel-id" data-slide-to="2" class=""></li>
 			</ol>
+		<div class="header">
 			<div class="carousel-inner">
 				<div class="item">
-					<img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="{{asset( 'img/pic/tips-on-how-to-make-a-board-game.jpeg' )}}" align="center" style="width:100%; height:100%;">
+					<img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="{{asset( 'img/pic/tips-on-how-to-make-a-board-game.jpeg' )}}">
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>Play for Performance</h1>
@@ -83,7 +93,7 @@
 					</div>
 				</div>
 				<div class="item active">
-					<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="{{asset( 'img/pic/chess_board-wallpaper-3554x1999.jpg' )}}" style="width:100%; height:100%;">
+					<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="{{asset( 'img/pic/chess_board-wallpaper-3554x1999.jpg' )}}">
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>Choose Your Games</h1>
@@ -93,7 +103,7 @@
 					</div>
 				</div>
 				<div class="item">
-					<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="{{asset( 'img/pic/pawn_chess_board-wallpaper-2560x1440.jpg' )}}" style="width:100%; height:100%;">
+					<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="{{asset( 'img/pic/pawn_chess_board-wallpaper-2560x1440.jpg' )}}">
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>Team Developer</h1>
@@ -103,6 +113,7 @@
 					</div>
 				</div>
 			</div>
+		</div>
 			<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 			<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div>
