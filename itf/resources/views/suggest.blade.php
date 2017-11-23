@@ -12,7 +12,6 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<style>p.none {border-style: none;}</style>
-		
   </head>
   <style>
 	.search-form .form-group {
@@ -82,7 +81,7 @@
 			<p>Build a railroad empire! Justifiably many people’s favorite game.</p>
 		</div>
 		<div class="col-xs-12 col-md-6">
-				<h4>Coup </h4>
+				<h4>Coup</h4>
 				<img data-src="{{asset( 'holder.js/500x200' )}}" class="img" alt="500x200" style="width: 500px; height: 500px;" src="https://www.morethanagamecafe.com/wp-content/uploads/2014/12/xcoup_1.jpg.pagespeed.ic.yGsRotalJy.jpg" data-holder-rendered="true">
 				<p>Bluff and Dare your way to victory! Very popular with all our customers, from schoolkids to experienced gamers.</p>
 		</div>

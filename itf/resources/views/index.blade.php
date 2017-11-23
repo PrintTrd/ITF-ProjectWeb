@@ -97,6 +97,7 @@
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>Team Developer</h1>
+							<h3>Board games คือเว็บไซต์ที่ได้รวบรวมบอร์ดเกมส์ต่าง ๆ มากมาย ซึ่งประกอบไปด้วยรูปภาพและเนื้อหาตลอดจนเกมส์ที่แนะนำ เพื่อให้ง่ายต่อการสืบค้นหรือศึกษาสำหรับผู้ที่สนใจในบอร์ดเกมส์</h3>
 							<p><a class="btn btn-warning btn-lg" href="/about" role="button">About Us</a></p>
 						</div>
 					</div>
