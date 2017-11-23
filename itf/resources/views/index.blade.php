@@ -83,7 +83,7 @@
 					</div>
 				</div>
 				<div class="item active">
-					<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="{{asset('img/pic/chess_board-wallpaper-3554x1999.jpg')}}" style="width:100%; height:100%;">
+					<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="{{asset( 'img/pic/chess_board-wallpaper-3554x1999.jpg' )}}" style="width:100%; height:100%;">
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>Choose Your Games</h1>
@@ -93,7 +93,7 @@
 					</div>
 				</div>
 				<div class="item">
-					<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="{{asset('img/pic/pawn_chess_board-wallpaper-2560x1440.jpg')}}" style="width:100%; height:100%;">
+					<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="{{asset( 'img/pic/pawn_chess_board-wallpaper-2560x1440.jpg' )}}" style="width:100%; height:100%;">
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>Team Developer</h1>

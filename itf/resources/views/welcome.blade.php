@@ -68,24 +68,11 @@
     </style>
     </head>
     <body>
-
 		@include('components.nav')
 		<div class="container-xs-12 container-md-6" align="center" style="height:50px">
 		</div>
 		<div class="container-xs-12 container-md-6" align="center" style="height:50px">
 		</div>
-		
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
             
         <div class="container">
             <div class="content">

@@ -253,7 +253,7 @@
 <div class="jumbotron" style="background-color:black;color:white;">
   <div class="container">
       <div class="col-sm-6" style='font-size:20px'><strong>About Us</strong><br>
-        <p style='font-size:18px'>Board games คือเว็บไซต์ที่ได้รวบรวมบอร์ดเกมส์ต่าง ๆ มากมาย ซึ่งประกอบไปด้วยรูปภาพและเนื้อหาตลอดจนเกมส์ที่แนะนำ เพื่อให้ง่ายต่อการสืบค้นหรือศึกษาสำหรับผู้ที่สนใจในบอร์ดเกมส์ .</p>
+        <p style='font-size:18px'>Board games คือเว็บไซต์ที่ได้รวบรวมบอร์ดเกมส์ต่าง ๆ มากมาย ซึ่งประกอบไปด้วยรูปภาพและเนื้อหาตลอดจนเกมส์ที่แนะนำ เพื่อให้ง่ายต่อการสืบค้นหรือศึกษาสำหรับผู้ที่สนใจในบอร์ดเกมส์</p>
       </div>
       <div class="col-sm-6" style='font-size:20px'><strong>Our Goal</strong><br>
         <p style='font-size:18px'>จุดมุ่งหมายของเรา คือการสร้างแหล่งรวมรวมข้อมูลของบอร์ดเกมส์ต่างๆซึ่งได้รวมถึงรายละเอียดของแต่ละเกมส์หรือเนื่อหาของเกมส์นั้น ๆ เพื่อเป็นประโยชน์ต่อผู้ที่สนใจและง่ายต่อการเข้าถึง</p>
@@ -294,19 +294,19 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4 zoomin">
-            <img src="{{asset( 'img/pic/sun.jpg' )}}" class="img-rounded" alt="sun"width="200" height="200"style='padding:10px;background-color:white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);'>
+            <a href="https://web.facebook.com/Sullvo1147" target="_blank"><img src="{{asset( 'img/pic/sun.jpg' )}}" class="img-rounded" alt="sun"width="200" height="200"style='padding:10px;background-color:white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);'></a>
             <h4><strong>ไชยพงษ์ นิธิพีรวัฒน์</strong><h4>
             <h4 class="duty"><i>60070016</i></h4>            
             <h4 class="duty"><i>Front-end</i></h4>
           </div>
           <div class="col-sm-4 zoomin">
-            <img src="{{asset( 'img/pic/print.jpg' )}}" class="img-rounded" alt="print" width="200" height="200"style='padding:10px;background-color:white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);'>
+            <a href="https://web.facebook.com/PrintTheerada?_rdc=1&_rdr" target="_blank"><img src="{{asset( 'img/pic/print.jpg' )}}" class="img-rounded" alt="print" width="200" height="200"style='padding:10px;background-color:white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);'></a>
             <h4><strong>ธิรดา ธีร์ธรรม</strong></h4>
             <h4 class="duty"><i>60070034</i></h4>            
             <h4 class="duty"><i>Back-end</i></h4>
           </div>
           <div class="col-sm-4 zoomin">
-            <img src="{{asset( 'img/pic/jak.jpg' )}}" class="img-rounded" alt="jak"width="200" height="200"style='padding:10px;background-color:white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);'>
+          <a href="https://web.facebook.com/warin001234?_rdc=1&_rdr" target="_blank"><img src="{{asset( 'img/pic/jak.jpg' )}}" class="img-rounded" alt="jak"width="200" height="200"style='padding:10px;background-color:white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);'></a>
             <h4><strong>วาริน สุคันธเมศ</strong></h4>
             <h4 class="duty"><i>60070089</i></h4>                        
             <h4 class="duty"><i>Front-end</i></h4>
@@ -314,13 +314,13 @@
         </div>
         <div class="row">
           <div class="col-sm-6 zoomin"> 
-            <img src="{{asset( 'img/pic/frong.jpg' )}}" class="img-rounded" alt="Frong"width="200" height="200"style='padding:10px;background-color:white;hover:red;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);'>
+          <a href="https://web.facebook.com/nattawut.techasriburapha" target="_blank"><img src="{{asset( 'img/pic/frong.jpg' )}}" class="img-rounded" alt="Frong"width="200" height="200"style='padding:10px;background-color:white;hover:red;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);'></a>
             <h4><strong>ณัฐวุฒิ เตชะศรีบูรพา</strong></h4>
             <h4 class="duty"><i>60070025</i></h4>                                    
             <h4 class="duty"><i>Database</i></h4>
           </div>
           <div class="col-sm-6 zoomin">
-            <img src="{{asset( 'img/pic/ken.jpg' )}}" class="img-rounded" alt="ken"width="200" height="200"style='padding:10px;background-color:white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);'>
+          <a href="https://web.facebook.com/my.username.is.ken?_rdc=1&_rdr" target="_blank"><img src="{{asset( 'img/pic/ken.jpg' )}}" class="img-rounded" alt="ken"width="200" height="200"style='padding:10px;background-color:white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);'></a>
             <h4><strong>ไอศูรย์ ทิมศรี</strong></h4>
             <h4 class="duty"><i>60070121</i></h4>
             <h4 class="duty"><i>Front-end</i></h4>
@@ -328,6 +328,7 @@
         </div>
     </div>
 </div>
+<p id = "footer" align="center">&copy; งานท่วมหัว ทำตัวเหมือนว่าง</p>
 		<!-- jQuery -->
         <script src="https://code.jquery.com/jquery.js"></script>
         <!-- Bootstrap JavaScript -->
