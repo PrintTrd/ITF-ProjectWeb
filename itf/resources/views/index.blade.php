@@ -76,6 +76,8 @@
 	<div class="container-xs-12 container-md-6" align="center" style="max-width:100%;height:auto;">
 		@include('components.nav')
 	</div>
+	<div class="container-xs-12 container-md-6" align="center" style="height:50px">
+	</div>
 	<div id="carousel-id" class="carousel slide" data-ride="carousel" style="margin-top: -5px;">
 			<ol class="carousel-indicators">
 				<li data-target="#carousel-id" data-slide-to="0" class=""></li>
