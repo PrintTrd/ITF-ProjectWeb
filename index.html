@@ -16,7 +16,7 @@
 		transition: all 0.35s, border-radius 0s;
 		width: 32px;
 		height: 32px;
-		background-color: #fff;
+		background-color: rgba(0, 0, 0, 0.075);
 		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
 		border-radius: 25px;
 		border: 1px solid #ccc;
@@ -71,7 +71,7 @@
 			-o-background-size: cover;
 		}
   	</style>
-  <body>
+  <body style="background-color: black">
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="border-radius: 0px;">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -101,7 +101,7 @@
 					<li><a href="About.html">About Us</a></li>
 				</ul>
 				<form action="" class="search-form navbar-right" style="position: relative; top: 8px; right: 18px;">
-					<div class="form-group has-feedback" style="">
+					<div class="form-group has-feedback">
 						<label for="search" class="sr-only">Search</label>
 						<input type="text" class="form-control" name="search" id="search" placeholder="search">
 							<span class="glyphicon glyphicon-search form-control-feedback"></span>
@@ -110,6 +110,8 @@
 			</div><!-- /.navbar-collapse -->
 	</nav>
 
+	<div class="container-xs-12 container-md-6" align="center" style="height:50px">
+	</div>
 	<div id="carousel-id" class="carousel slide" data-ride="carousel" style="margin-top: -23px;">
 		<ol class="carousel-indicators">
 			<li data-target="#carousel-id" data-slide-to="0" class=""></li>

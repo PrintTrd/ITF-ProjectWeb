@@ -62,19 +62,19 @@
 	    }
   	</style>
     <body style="background-color:black">
-		
-		@include('components.nav')
-		
-		<div class="container-xs-12 container-md-6" align="center" style="height:50px">
+		<div class="container-xs-12 container-md-6" align="center" style="max-width:100%;height:auto;">
+			@include('components.nav')
         </div>
+		<div class="container-xs-12 container-md-6" align="center" style="height:50px">
+		</div>
         
         <div class="container-xs-12 container-md-6 text-center">
-            <img src="{{asset( 'img/pic/PLAY-FOR-PERFORMANCE-WEB.jpg' )}}">
-            <img src="{{asset( 'img/pic/PLAY-FOR-PERFORMANCE-WEB2.jpg' )}}">
-            <img src="{{asset( 'img/pic/PLAY-FOR-PERFORMANCE-WEB3.jpg' )}}">
-            <img src="{{asset( 'img/pic/PLAY-FOR-PERFORMANCE-WEB4.jpg' )}}">
-            <img src="{{asset( 'img/pic/PLAY-FOR-PERFORMANCE-WEB5.jpg' )}}">
-            <img src="{{asset( 'img/pic/PLAY-FOR-PERFORMANCE-WEB6.jpg' )}}">
+            <img src="{{asset( 'img/pic/PLAY-FOR-PERFORMANCE-WEB.jpg' )}}" style="max-width:100%;height:auto;">
+            <img src="{{asset( 'img/pic/PLAY-FOR-PERFORMANCE-WEB2.jpg' )}}" style="max-width:100%;height:auto;">
+            <img src="{{asset( 'img/pic/PLAY-FOR-PERFORMANCE-WEB3.jpg' )}}" style="max-width:100%;height:auto;">
+            <img src="{{asset( 'img/pic/PLAY-FOR-PERFORMANCE-WEB4.jpg' )}}" style="max-width:100%;height:auto;">
+            <img src="{{asset( 'img/pic/PLAY-FOR-PERFORMANCE-WEB5.jpg' )}}" style="max-width:100%;height:auto;">
+            <img src="{{asset( 'img/pic/PLAY-FOR-PERFORMANCE-WEB6.jpg' )}}" style="max-width:100%;height:auto;">
         </div>
         
         <!-- jQuery -->

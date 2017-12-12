@@ -77,7 +77,7 @@
         <div class="container">
             <div class="content">
                 <div class="title m-b-md">
-                    <img src="{{ $data->img }}" alt="" style="height:400px;width:400px">
+                    <img src="{{ $data->img }}" alt="" style="max-width:100%;height:auto;">
                 </div>
                 <div class="links">
                     <h3>{{ $data->title }}</h3>

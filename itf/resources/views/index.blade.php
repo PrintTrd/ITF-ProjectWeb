@@ -5,7 +5,7 @@
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -16,7 +16,7 @@
 		transition: all 0.35s, border-radius 0s;
 		width: 32px;
 		height: 32px;
-		background-color: #fff;
+		background-color: rgba(0, 0, 0, 0.075);
 		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
 		border-radius: 25px;
 		border: 1px solid #ccc;
@@ -59,7 +59,7 @@
 		text-align: center;
 		color: #424344;
 		left: initial;
-		font-size: 14px;
+		font-size: 1em;
 		}
 		.header{
 			position: relative;
@@ -71,10 +71,12 @@
 			-o-background-size: cover;
 		}
   	</style>
-  <body>
+  <body style="background-color: black">
 	
-    @include('components.nav')
-	<div id="carousel-id" class="carousel slide" data-ride="carousel" style="margin-top: -23px;">
+	<div class="container-xs-12 container-md-6" align="center" style="max-width:100%;height:auto;">
+		@include('components.nav')
+	</div>
+	<div id="carousel-id" class="carousel slide" data-ride="carousel" style="margin-top: -5px;">
 			<ol class="carousel-indicators">
 				<li data-target="#carousel-id" data-slide-to="0" class=""></li>
 				<li data-target="#carousel-id" data-slide-to="1" class="active"></li>
@@ -82,8 +84,8 @@
 			</ol>
 		<div class="header">
 			<div class="carousel-inner">
-				<div class="item">
-					<img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="{{asset( 'img/pic/tips-on-how-to-make-a-board-game.jpeg' )}}">
+				<div class="item" style="background-color:black">
+					<img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="{{asset( 'img/pic/tips-on-how-to-make-a-board-game.jpeg' )}}" style="max-width:100%;height:auto;">
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>Play for Performance</h1>
@@ -92,8 +94,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="item active">
-					<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="{{asset( 'img/pic/chess_board-wallpaper-3554x1999.jpg' )}}">
+				<div class="item active" style="background-color:black">
+					<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="{{asset( 'img/pic/chess_board-wallpaper-3554x1999.jpg' )}}" style="max-width:100%;height:auto;">
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>Choose Your Games</h1>
@@ -102,8 +104,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="item">
-					<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="{{asset( 'img/pic/pawn_chess_board-wallpaper-2560x1440.jpg' )}}">
+				<div class="item" style="background-color:black">
+					<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="{{asset( 'img/pic/pawn_chess_board-wallpaper-2560x1440.jpg' )}}" style="max-width:100%;height:auto;">
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>Team Developer</h1>

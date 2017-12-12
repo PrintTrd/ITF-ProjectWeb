@@ -72,7 +72,7 @@
 
         <div class="container">
             <div class="title m-b-md">
-                <img src="{{asset( 'img/pic/not-found.png' )}}" alt="" style="height:464px;width:800px">
+                <img src="{{asset( 'img/pic/not-found.png' )}}" alt="" style="max-width:100%;height:auto;">
             <h3>NOT FOUND</h3>
             </div>
         </div>
